@@ -1,10 +1,10 @@
-byte a=0
+byte a=0; 
 void setup()
 {
-  pinNode (2,OUTPUT);
-  pinNode (3,OUTPUT);
-  pinNode (4,OUTPUT);
-  pinNode (5,OUTPUT);
+  pinMode (2,OUTPUT);
+  pinMode (3,OUTPUT);
+  pinMode (4,OUTPUT);
+  pinMode (5,OUTPUT);
 }
 void loop()
 {
