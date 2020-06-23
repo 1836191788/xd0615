@@ -10,7 +10,6 @@
     digitalWrite(4,(a>>2)&0x1);
     digitalWrite(5,(a>>3)&0x1);
     digitalWrite(8,LOW);
-  	delay(1000);
     if(tick==9)
       tick=-1;
  	tick++;
